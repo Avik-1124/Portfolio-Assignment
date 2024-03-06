@@ -1,0 +1,57 @@
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 190px;
+}
+
+.content {
+  margin: auto;
+  width: 70%;
+  padding: 70px;
+}
+
+.content .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .work-info .category {
+  margin-right: 10px;
+  color: #2418B4;
+}
+
+.content .work-info .year-badge {
+  background: #2418B4;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 35px;
+}
+
+
+.content > p {
+  color: darkgrey;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.content > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 175px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+.content > h1,
+.content > h2,
+.content > h3 {
+  padding: 20px;
+  margin-left: 10px;
+  color: black;
+}

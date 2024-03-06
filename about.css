@@ -1,0 +1,24 @@
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 190px;
+}
+
+.content {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.content .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 104, 180, 0.2);
+  border-radius: 20px;
+}
+
+.content .container img{
+  width: 200px;
+  height: 200px;
+}

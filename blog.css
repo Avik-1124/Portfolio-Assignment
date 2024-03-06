@@ -1,0 +1,73 @@
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 270px;
+}
+
+.content {
+  margin: auto;
+  width: 45%;
+}
+
+
+.content .post-list .post-item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba(185, 222, 255, 0.45);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+.content .post-list .post-item h3{
+  font-weight: 800;
+  color: #1f1f1f;
+}
+
+.content .post-list .post-item .info{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 350px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.content .post-list .post-item h5{
+  font-weight: 100;
+  color: #1f1f1f;
+  font-style: italic;
+}
+
+.content .post-list .post-item .buttons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.content .post-list .post-item  .buttons button{
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  padding: 10px;
+  transition: padding ease-in-out 0.3s;
+}
+
+.content .post-list .post-item  .buttons i{
+  color: #1f1f1f;
+  font-size: 23px;
+  transition: padding ease-in-out 0.3s;
+}
+
+.content .post-list .post-item  .buttons i:hover{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.content .post-list .post-item  .buttons button:hover{
+  padding: 20px;
+  cursor: pointer;
+}

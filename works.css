@@ -1,0 +1,65 @@
+.page-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 190px;
+}
+
+.content{
+  display: flex; 
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.works-list .item {
+  display: flex;
+}
+
+
+.works-list .item  img {
+  border: 2px solid black;
+  width: 200px;
+  height: 175px;
+}
+
+.works-list .item h3 {
+  margin-top: 50px;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.works-list .item .details {
+  flex: 1;
+}
+
+.works-list .item .details .item-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 700px;
+  color: grey;
+}
+
+.works-list .item .details .item-info .year-badge {
+  background: #2418B4;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 35px;
+}
+
+
+
+.works-list .item .details p{
+  color: darkgrey;
+  padding: 5px;
+  
+}
+
+.hr{
+  border: 2px solid gray;
+  height: 0.00000001px;
+  width: 100%;
+}
